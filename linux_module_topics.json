@@ -1,0 +1,107 @@
+[
+  {
+    "title": "Linux Fundamentals and System Administration",
+    "description": "Introduces Linux operating system fundamentals and command-line tools used in software development, server administration, and application deployment. Students will learn filesystem navigation, file and directory management, file searching and log monitoring, permissions and ownership, process management, environment variables, networking basics, and secure remote access using SSH. The module emphasizes practical commands and troubleshooting skills for Linux-based development and production environments.",
+    "topics": [
+      {
+        "title": "Linux Fundamentals and File System Navigation",
+        "duration": "75 mins",
+        "description": "Understand Linux, its directory structure, and the command-line interface. Learn to navigate the filesystem and inspect directories using essential commands.",
+        "subtopics": [
+          "Introduction to Linux and its features",
+          "Linux distributions and common use cases",
+          "Introduction to the terminal and shell",
+          "Linux filesystem hierarchy",
+          "Absolute and relative paths",
+          "Using pwd",
+          "Listing files and directories using ls",
+          "Navigating directories using cd",
+          "Hidden files and directories"
+        ]
+      },
+      {
+        "title": "Linux File and Directory Management Commands",
+        "duration": "75 mins",
+        "description": "Learn to create, copy, move, rename, remove, and inspect files and directories using commonly used Linux commands.",
+        "subtopics": [
+          "Creating directories using mkdir",
+          "Creating and managing files",
+          "Copying files and directories using cp",
+          "Moving and renaming files using mv",
+          "Removing files using rm",
+          "Removing directories safely",
+          "Viewing file contents using cat",
+          "Common command options and flags",
+          "Practical file and directory management exercises"
+        ]
+      },
+      {
+        "title": "File Searching, Filtering and Log Monitoring",
+        "duration": "75 mins",
+        "description": "Use Linux commands to locate files, search text, filter command output, and monitor log files. Learn to identify errors and inspect application logs.",
+        "subtopics": [
+          "Searching files and directories using find",
+          "Searching text patterns using grep",
+          "Case-insensitive and recursive searches",
+          "Combining commands using pipes",
+          "Viewing file endings using tail",
+          "Monitoring live log updates using tail -f",
+          "Filtering application logs for errors and warnings",
+          "Practical log searching exercises"
+        ]
+      },
+      {
+        "title": "Linux File Permissions and Ownership",
+        "duration": "60 mins",
+        "description": "Understand Linux file security through permissions and ownership. Learn read, write, and execute permissions for users, groups, and others, and manage them using chmod and chown.",
+        "subtopics": [
+          "Introduction to Linux users and groups",
+          "Understanding file and directory permissions",
+          "Read, write, and execute permissions",
+          "User, group, and others permission categories",
+          "Symbolic and numeric permission notation",
+          "Changing permissions using chmod",
+          "Changing ownership using chown",
+          "Inspecting permissions using ls -l",
+          "Common permission errors and troubleshooting"
+        ]
+      },
+      {
+        "title": "Linux Process Management, Logs and System Troubleshooting",
+        "duration": "90 mins",
+        "description": "Learn to inspect and manage running processes and monitor system activity. Use process commands and application logs to identify resource usage, stop processes, and troubleshoot common Linux server issues.",
+        "subtopics": [
+          "Introduction to Linux processes",
+          "Process IDs (PID) and parent process IDs (PPID)",
+          "Listing processes using ps",
+          "Monitoring processes using top",
+          "Understanding CPU and memory usage",
+          "Terminating processes using kill",
+          "Understanding process signals",
+          "Inspecting system and application logs",
+          "Common Linux server troubleshooting scenarios",
+          "Application startup and port-related troubleshooting"
+        ]
+      },
+      {
+        "title": "Environment Variables, Networking and SSH Basics",
+        "duration": "90 mins",
+        "description": "Understand environment variables and basic network communication in Linux. Learn to use curl for HTTP requests and SSH for securely connecting to remote Linux servers.",
+        "subtopics": [
+          "Introduction to environment variables",
+          "Viewing variables using env and printenv",
+          "Setting and exporting variables using export",
+          "Understanding PATH and common environment variables",
+          "Using environment variables for application configuration",
+          "Introduction to HTTP communication",
+          "Making GET and POST requests using curl",
+          "Sending headers and request data using curl",
+          "Introduction to SSH and remote server access",
+          "Connecting to servers using ssh",
+          "SSH authentication and key-based access",
+          "Practical remote server connection exercises"
+        ]
+      }
+    ]
+  }
+]
